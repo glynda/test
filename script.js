@@ -3,5 +3,8 @@
 console.log("Testig the github");
 const name = "Gina";
 console.log(name);
-const num = 2;
-console.log(num);
+
+const newFeature = function () {
+  console.log("Welcome to application");
+};
+newFeature();
